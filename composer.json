@@ -1,0 +1,42 @@
+{
+    "name": "fagundes/oauth2-eb",
+    "description": "EB/DGP OAuth 2.0 support for PHP League's OAuth 2.0 Client",
+    "type": "library",
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "mockery/mockery": "~0.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fagundes\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fagundes\\OAuth2\\Client\\Test\\": "tests/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinícius Fagundes",
+            "email": "mvlacerda@gmail.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "EB",
+        "Exército Brasileiro",
+        "DGP",
+        "Departamento-Geral do Pessoal",
+        "api",
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication"
+    ]
+}
